@@ -9,7 +9,7 @@
     var isFFOS = ("mozApps" in navigator && navigator.userAgent.search("Mobile") != -1);
 
     if ( isFFOS ) {
-      var manifestUrl = 'http://buildingfirefoxos.github.io/Building-Blocks/package/package.manifest';
+      var manifestUrl = 'manifest.webapp';
       var req = navigator.mozApps.installPackage(manifestUrl);
       req.onsuccess = function() {
         console.log(this.result.origin);
@@ -19,7 +19,7 @@
       };
 
     } else {
-      window.location.href = "app.html"
+      window.location.href = "views/main.html"
     }
 
   </script>
