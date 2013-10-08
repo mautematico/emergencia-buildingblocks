@@ -1,7 +1,8 @@
 {
   "name": "Building Blocks",
   "description": "Building Blocks Demo App",
-  "launch_path": "views/main.html",
+  "launch_path": "views/main.html",  
+  "type": "certified",
   "icons": {
     "128": "/images/app_icon_128.png",
     "60": "/images/app_icon_60.png"
@@ -11,5 +12,39 @@
     "name": "Arnau March",
     "url": "http://buildingfirefoxos.com"
   },
-  "default_locale": "en"
+  "permissions": {
+    "storage":{},
+    "device-storage:pictures":{ "access": "readwrite" },
+    "device-storage:videos":{ "access": "readwrite" },
+    "settings":{ "access": "readonly" },
+    "camera":{},
+    "geolocation":{},
+    "audio-channel-notification":{}
+  },
+  "activities": {
+    "record": {
+      "filters": {
+        "type": ["photos", "videos"]
+       },
+      "disposition": "window"
+    },
+    "pick": {
+      "filters": {
+        "type": ["image/*", "image/jpeg", "video/*", "video/3gpp"]
+       },
+      "returnValue": true,
+      "disposition": "inline",
+      "href": "/index.html#pick"
+    }
+  },
+  "default_locale": "en",
+  "permissions": {
+    "storage":{},
+    "device-storage:pictures":{ "access": "readwrite" },
+    "device-storage:videos":{ "access": "readwrite" },
+    "settings":{ "access": "readonly" },
+    "camera":{},
+    "geolocation":{},
+    "audio-channel-notification":{}
+  }
 }
