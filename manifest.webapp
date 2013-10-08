@@ -1,6 +1,6 @@
 {
   "name": "Emergencia",
-  "description": "emergencia creada con Building Blocks",
+  "description": "Números de emergencia locales. Usamos Building Blocks",
   "launch_path": "views/main.html",  
   "type": "web",
   "icons": {
@@ -8,8 +8,8 @@
   },
   "version": "0.1",
   "developer": {
-    "name": "Your name or organization",
-    "url": "http://your-homepage-here.org"
+    "name": "",
+    "url": ""
   },
   "permissions": {
     "geolocation":{}
