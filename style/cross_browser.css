@@ -9,8 +9,13 @@ form[role="dialog"][data-type="action"],
 form[role="dialog"][data-type="object"],
 form[role="dialog"][data-type="confirm"] {
   background:
+<<<<<<< HEAD
     url(../style/action_menu/images/ui/pattern.png) repeat left top,
     url(../style/action_menu/images/ui/gradient.png) no-repeat left top;
+=======
+    url(action_menu/images/ui/pattern.png) repeat left top,
+    url(action_menu/images/ui/gradient.png) no-repeat left top;
+>>>>>>> e35af4d0563350bac73a3cefada47a24d58da215
   background-size: auto, 100%;
 }
 
@@ -80,18 +85,30 @@ section[role="region"] > header:first-child menu[type="toolbar"] button {
 
 section[role="region"] > header:first-child menu[type="toolbar"] a:last-child, 
 section[role="region"] > header:first-child menu[type="toolbar"] button:last-child {
+<<<<<<< HEAD
   background: url(../style/headers/images/ui/separator.png) no-repeat left center;
+=======
+  background: url(headers/images/ui/separator.png) no-repeat left center;
+>>>>>>> e35af4d0563350bac73a3cefada47a24d58da215
   background-size: auto 4.8rem;
 }
 
 section[role="region"] > header:first-child form button[type="reset"] {
+<<<<<<< HEAD
   background: url(../style/headers/images/icons/clear.png) no-repeat center center;
+=======
+  background: url(headers/images/icons/clear.png) no-repeat center center;
+>>>>>>> e35af4d0563350bac73a3cefada47a24d58da215
   background-size: 1.7rem auto;
 }
 
 section[role="region"] > header:first-child > button:after,
 section[role="region"] > header:first-child > a:after {
+<<<<<<< HEAD
   background: url(../style/headers/images/ui/separator.png) no-repeat right center;
+=======
+  background: url(headers/images/ui/separator.png) no-repeat right center;
+>>>>>>> e35af4d0563350bac73a3cefada47a24d58da215
   background-size: 0.2rem 4.8rem;
 }
 
@@ -164,13 +181,13 @@ section[data-type="sidebar"] > header menu[type="toolbar"] button {
 }
 
 section[data-type="sidebar"] > header {
-  background: url(style_unstable/drawer/images/ui/header.png) repeat-x left bottom;
+  background: url(../style_unstable/drawer/images/ui/header.png) repeat-x left bottom;
   background-size: 100% auto;
 }
 
 section[data-type="sidebar"] > header menu[type="toolbar"] a:last-child,
 section[data-type="sidebar"] > header menu[type="toolbar"] button:last-child {
-  background: url(style_unstable/drawer/images/ui/separator.png) no-repeat left center;
+  background: url(../style_unstable/drawer/images/ui/separator.png) no-repeat left center;
   background-size: auto 3.1rem;
 }
 
@@ -206,7 +223,7 @@ progress[value]::-webkit-progress-value {
 }
 
 progress[value].pack-activity::-webkit-progress-bar {
-  background-image: url(style_unstable/progress_activity/images/ui/activity.png);
+  background-image: url(../style_unstable/progress_activity/images/ui/activity.png);
   -webkit-animation: 0.5s move infinite steps(15);
 }
 
@@ -238,7 +255,7 @@ div[role="slider"] progress::-webkit-progress-value {
 div[role="slider"] button {
   -moz-transition: border 0.15s ease;
   -webkit-transition: border 0.15s ease;
-  background: url(style_unstable/seekbars/images/ui/handler.png) no-repeat center;
+  background: url(../style_unstable/seekbars/images/ui/handler.png) no-repeat center;
   background-size: 2.8rem auto;
 }
 
