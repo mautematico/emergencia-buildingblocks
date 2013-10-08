@@ -9,7 +9,7 @@
     var isFFOS = ("mozApps" in navigator && navigator.userAgent.search("Mobile") != -1);
 
     if ( isFFOS ) {
-      var manifestUrl = 'manifest.webapp';
+      var manifestUrl = '/package/package.manifest';
       var req = navigator.mozApps.installPackage(manifestUrl);
       req.onsuccess = function() {
         console.log(this.result.origin);
